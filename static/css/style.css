@@ -1,0 +1,91 @@
+/* Background style */
+body {
+    background-color: #f2f2f2;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    /* font-weight: bold; */
+}
+
+/* Content wrapper */
+.content {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 40px;
+}
+
+/* Calculator title */
+h1 {
+    color: #000000;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Form styling */
+.form {
+    /* background-color: rgb(58, 57, 57); */
+    background-color: #2e6da4;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+label {
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    text-align: center;
+    line-height: 150%;
+    font-size: 1rem;
+    /* font-weight: bold; */
+    color: white;
+
+}
+
+/* Input fields */
+input[type="text"] {
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #e6e6e6;
+    font-size: 16px;
+}
+
+/* Select field */
+select {
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #e6e6e6;
+    font-size: 16px;
+}
+
+/* Submit button */
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Submit button hover effect */
+input[type="submit"]:hover {
+    background-color: #3e8e41;
+    font-weight: bold;
+}
+
+footer {
+    margin-top: 10%;
+    color: black;
+    font-size: 0.7rem;
+}
